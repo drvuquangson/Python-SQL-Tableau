@@ -30,5 +30,7 @@ This project is from a final project of the Business Intelligence Analyst course
 
 
 Python: organize data so that a statistical method called a logistic regression will lead to an output that will allow us to better predict future outcomes for new observations. 
+
 SQL: Then the data will be transferred to SQL, then export to a CSV file
+
 Tableau: Finally it will be brought to Tableau, you'll see how a few clicks and frag can create a dataviz that will provide you a better understanding of your results. 
