@@ -3,7 +3,7 @@ Software Integration
 
 In this projet, I will demonstrate a variety of skills from using Python for data preparation, SQL to create a database to using Tableau for visualizing data in the most intuitive way:
 
-This project is from a final project of the Business Intelligence Analyst course on Udemy. In this project, beside acquiring some technical skills from working with tools like Python, SQL, Tableau I also demonstrate my business problem-solving ability. First, I'll talk about the business problem I'm going to solve, then I will talk briefly about the dataset given, finally I will talk about how I use different tools and steps to create beautiful charts that can be used for story-telling.
+This project is from a final project of the Business Intelligence Analyst course on Udemy. In this project, beside acquiring some technical skills from working with tools like Python, SQL, Tableau I also demonstrate my business problem-solving ability. First, I'll talk about the business problem I'm going to solve, then I will talk briefly about the dataset given, finally I will talk about how I use other tools like SQL and Tableau and Story-telling
 
     1. Let's define the business problem: 
         The exercise will address absenteeism at a company during work time. As a manager who is in charge of the productivity of employees, we'll look at the probability an employee will be missing for more than three hours during a workday because of many factors.
