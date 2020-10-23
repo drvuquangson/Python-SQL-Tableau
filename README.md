@@ -23,7 +23,7 @@ This project is from a final project of the Business Intelligence Analyst course
           We will start working on the ‘Absenteeism_data.csv’, the data given has 700 rows and 12 columns. 
           After you have familiarized with the data, look at the 'Absenteeism Exercise - Preprocessing.ipynb' using Jupyter to see how I take the data to a usable state.
           The 'data_preprocessing_homework.pdf' is an instruction for someone who wants to go though the exercise by himself and the 'df_preprocessed.csv' is the output
-          he should obtain if he's done everything correctly. Next, we'll use a given Machine learning algorithm contains in the 'absenteeism_module.py', 
+          he should obtain if he's done everything correctly. Next, we'll use a given Machine learning algorithm contains in the 'absenteeism_module.py' module with two files             the 'model' and 'scaler', 
           it has the codes I wrote to clean the data and codes that will deliver predictions based on the data you are feeding it. 
           The output of this prediction will be stored in the 'Absenteeism_ML predictions.csv'
           
