@@ -3,7 +3,7 @@ Software Integration
 
 In this projet, I will demonstrate a variety of skills from using Python for data preparation, SQL to create a database to using Tableau for visualizing data in the most intuitive way:
 
-This project is from a final project of the Business Intelligence Analyst course on Udemy. In this project, beside acquiring some technical skills from working with tools like Python, SQL, Tableau I also demonstrate my business problem-solving ability. First, I'll talk about the business problem I'm going to solve, then I will talk briefly about the dataset given, next I will talk about the process and how I use other tools like SQL and Tableau, finally you can read the insights for the Story-telling file
+This project is from a final project of the Business Intelligence Analyst course on Udemy. In this project, beside acquiring some technical skills from working with tools like Python, SQL, Tableau I also demonstrate my business problem-solving ability. First, I'll talk about the business problem I'm going to solve, then I will talk briefly about the dataset given, next I will talk about the process from cleaning the raw data to building worksheets in tableau, finally you can read the insights for the Story-telling file
 
     1. Let's define the business problem: 
         The exercise will address absenteeism at a company during work time. As a manager who is in charge of the productivity of employees,
@@ -21,16 +21,32 @@ This project is from a final project of the Business Intelligence Analyst course
       
       2. The data given:
           We will start working on the ‘Absenteeism_data.csv’, the data given has 700 rows and 12 columns. 
-          After you have familiarized with the data, look at the 'Absenteeism Exercise - Preprocessing.ipynb' using Jupyter to see how I take the data to a usable state.
-          The 'data_preprocessing_homework.pdf' is an instruction for someone who wants to go though the exercise by himself and the 'df_preprocessed.csv' is the output
-          he should obtain if he's done everything correctly. Next, we'll use a given Machine learning algorithm contains in the 'absenteeism_module.py' module with two files             the 'model' and 'scaler', 
-          it has the codes I wrote to clean the data and codes that will deliver predictions based on the data you are feeding it. 
-          The output of this prediction will be stored in the 'Absenteeism_ML predictions.csv'
+          The 'data_preprocessing_homework.pdf' is an instruction for someone who wants to go though the 
+          exercise by himself and the 'df_preprocessed.csv' is the output 
+          he should obtain if he's done everything correctly. 
+          
+          Python: organize data so that a statistical method called a logistic regression will lead to an
+          output that will allow us to better predict future outcomes for new observations. 
+          
+          SQL: Then the data will be transferred to SQL, then export to a CSV file
+          
+          Tableau: Finally it will be brought to Tableau, you'll see how a few clicks and frag can create a dataviz that will provide you a better understanding of your results. 
+          
+          
+      3. The process:   
+          After you have familiarized with the data, look at the 'Absenteeism Exercise - Preprocessing.ipynb' 
+          using Jupyter to see how I take the data to a usable state. Next, we'll use a given Machine learning 
+          algorithm contains in the 'absenteeism_module.py' module with two files the 'model' and 'scaler'. 
+          The output of this prediction will be stored in the 'Absenteeism_ML predictions.csv'. The 'Absenteeism_Predictions' 
+          file has the codes I wrote in the 'Absenteeism Exercise - Preprocessing.ipynb' to clean the data and codes that will 
+          deliver predictions individuals that will be absent from work based on the data you are feeding it and codes that will store 
+          data in SQL(mySQL), the output will stored in the 'predicted_data.sql'. Finally, the 'predicted_data.sql' file 
+          will be loaded to Tableau for visualising to find insights. You can read my findings in the 'Story telling.docx'.
           
 
 
-Python: organize data so that a statistical method called a logistic regression will lead to an output that will allow us to better predict future outcomes for new observations. 
 
-SQL: Then the data will be transferred to SQL, then export to a CSV file
 
-Tableau: Finally it will be brought to Tableau, you'll see how a few clicks and frag can create a dataviz that will provide you a better understanding of your results. 
+
+
+
